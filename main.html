@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EF-product</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">EF-Store</div>
+    <ul class="pages">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#form">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="main1">
+    <h1>Welcome to EF-Store</h1>
+    
+    <button class="shop-button">Shop Now</button>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Eco-Friendly Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="" alt="1">
+        <h3>Water Bottle</h3>
+        <p>1 rs</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="" alt="2">
+        <h3>Bamboo Toothbrush</h3>
+        <p>2 rs</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="" alt="3">
+        <h3>Carry bag</h3>
+        <p>3 rs</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem minus harum deleniti ullam repudiandae aspernatur cupiditate, necessitatibus eaque fugit excepturi repellat dolor animi suscipit, exercitationem adipisci sit ipsa quos?</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="form" method="POST">
+
+      <input type="hidden" name="access_key" value="b7befef2-e629-4f1e-95f0-45f83b6939eb">
+
+      <input type="text" name="name" placeholder="name" required>
+      <input type="email" name="email" placeholder="email" required>
+      <textarea name="message" placeholder="message..." rows="4" required></textarea>
+      <button type="submit">Submit Form</button>
+      <div id="result"></div>
+
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 EF-Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
